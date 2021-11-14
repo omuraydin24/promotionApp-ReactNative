@@ -6,7 +6,11 @@
 
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
 
-### `npm start`
+### `npm/yarn install`
+
+Install all the dependencies listed within package.json in the local node_modules folder.
+
+### `yarn run / npm start`
 
 Runs your app in development mode.
 
@@ -41,3 +45,10 @@ Like `npm start`, but also attempts to open your app on a connected Android devi
 - Pagination dots creates themselves according to promotion count but don't change respective with carousel changes.
 
 - On promotion detail page, "Hemen Katıl" button doesn't stick at the bottom of the page.
+
+## Screenshots
+
+
+|                                               Keşfet Screen                                               |                                               Detail Screen                                               |
+| :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| ![Keşfet Screen](https://raw.githubusercontent.com/Omuraydin24/promotionApp-ReactNative/main/SS/SS-1.png) | ![Detail Screen](https://raw.githubusercontent.com/Omuraydin24/promotionApp-ReactNative/main/SS/SS-2.png) |
