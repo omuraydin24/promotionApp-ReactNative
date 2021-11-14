@@ -1,0 +1,1 @@
+export const API = "https://testapi.dahadaha.com/api/promotions"
