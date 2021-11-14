@@ -32,7 +32,7 @@ function Kesfet({ navigation }) {
       .catch((error) => console.log(error))
   }, []);
 
-  {/* Routing functioon for detail screen */ }
+  {/* Routing function for detail screen */ }
   const handleDetail = PromotionID => {
     navigation.navigate('PromotionDetailScreen', { PromotionID });
   };
